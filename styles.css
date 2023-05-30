@@ -58,7 +58,7 @@ body {
   height: 250px;
   border-radius: 12px;
   z-index: 100;
-  background: #fff;
+  background: #40e0d0;
 }
 
 div img.avatar {
@@ -98,9 +98,22 @@ a.repo {
 
 .avatar {
   border-radius: 50%;
-  border: 5px solid #2a2a72;
+  border: 5px solid #333;
   height: 80px;
   width: 80px;
+}
+
+.user-link {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: 0.3s;
+  color: #333;
+}
+
+.user-link:hover {
+  color: #000;
+  transform: scale(1.1);
 }
 
 .fa-search {
@@ -117,4 +130,5 @@ a.repo {
   position: absolute;
   top: 10px;
   right: 10px;
+  cursor: pointer;
 }

@@ -58,6 +58,7 @@
       const userBio = user.bio ? `<p>${user.bio}</p>` : "";
       const cardHTML = `
         <div class="card">
+          <a href="${user.html_url}" target="_blank" class="user-link"><i class="fab fa-github"></i></a>
           <div>
             <img src="${user.avatar_url}" alt="${user.name}" class="avatar">
           </div>
