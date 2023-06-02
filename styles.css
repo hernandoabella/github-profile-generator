@@ -132,10 +132,3 @@ a.repo {
   right: 10px;
   cursor: pointer;
 }
-
-@media screen and (max-width: 768px) {
-  .container {
-    width: 90vw;
-    max-width: 90%;
-  }
-}
